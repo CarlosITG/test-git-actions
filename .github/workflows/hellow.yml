@@ -1,4 +1,4 @@
-name: Say hellow
+name: Say hello
 
 on:
   push:
@@ -6,9 +6,14 @@ on:
       - main
 
 jobs:
-  hellow_world:
+  hello_world:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
-        run: |
-          echo "Hello world"
+        run: echo "Hello world"
+
+      - name: Show the date
+        run: date
+
+      - name: List files
+        run: ls -l
