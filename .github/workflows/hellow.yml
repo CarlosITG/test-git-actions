@@ -1,0 +1,6 @@
+name: Say hellow
+
+on:
+  push:
+    branches:
+      - main 
