@@ -1,0 +1,1 @@
+[![deplyment pipeline](https://github.com/CarlosITG/test-git-actions/actions/workflows/pipeline.yml/badge.svg)](https://github.com/CarlosITG/test-git-actions/actions/workflows/pipeline.yml)
