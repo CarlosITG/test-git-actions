@@ -3,4 +3,12 @@ name: Say hellow
 on:
   push:
     branches:
-      - main 
+      - main
+
+jobs:
+  hellow_world:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: |
+          echo "Hello world
